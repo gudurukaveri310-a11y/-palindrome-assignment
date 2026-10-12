@@ -1,19 +1,50 @@
 # Palindrome Assignment
 
-This program checks if a number or string is palindrome.
+**Name:** Guduru Kaveri  
+**Programming Language:** Python
 
-## What is Palindrome?
-A word or number that reads same forward and backward.
-Example: 121, madam, level
+## About the Project
+This project checks whether a given number or string is a palindrome.
 
-## Logic
-Check if text == text[::-1]
-
-## How to Run
-python palindrome.py
+A palindrome reads the same forward and backward.
 
 ## Examples
-Input: 121 -> Palindrome
-Input: hello -> Not Palindrome
+- `madam` → Palindrome
+- `hello` → Not a Palindrome
+- `121` → Palindrome
+- `123` → Not a Palindrome
 
-Created by: gudurukaveri310-a11y
+## Python Program
+```python
+text = input("Enter a number or string: ")
+
+if text == text[::-1]:
+    print("Palindrome")
+else:
+    print("Not a Palindrome")
+```
+
+## How to Run
+1. Install Python.
+2. Download or clone this repository.
+3. Open the terminal in the project folder.
+4. Run:
+
+```bash
+python palindrome.py
+```
+
+## Sample Output
+```text
+Enter a number or string: madam
+Palindrome
+```
+
+## Concepts Used
+- Python
+- User Input
+- If-Else Statements
+- String Slicing
+- Reverse String Comparison
+
+
